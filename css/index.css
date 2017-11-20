@@ -1,0 +1,910 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+header{
+    width: 1365px;
+    margin: 0 auto;
+}
+header .main{
+   width: 100%;
+   height: 155px;
+   background: url(../images/title.png);
+}
+header .top {
+    padding-left: 90px;
+    font-size: 15px;
+}
+header .top a{
+    color: #CCCCCC;
+    line-height: 30px;
+    padding: 0 15px;
+}
+header .main img{
+    margin-left: 100px;
+    margin-top: 35px;
+}
+.slideTxtBox .hd ul {
+    width: 1100px;
+    margin: 0 auto;
+    height: 38px;
+    /* border: 1px solid red; */
+}
+.slideTxtBox .hd ul li{
+    display: inline-block;
+    font-size: 18px;
+    line-height: 38px;
+    padding: 0 20px;
+}
+.slideTxtBox .hd ul li:hover{
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+.slideTxtBox .bd {
+   border-top: 1px solid lightgray;
+   width: 100%;
+   position: absolute;
+   z-index: 10;
+   display: none;
+}
+#zong {
+    width: 1365px;
+    margin: 0 auto;
+    position: relative;
+    background:#fff;
+    line-height: 35px;
+}
+#zong img {
+    margin: 20px 0 0 80px;
+    border: 1px solid #ddd;
+}
+#zong div.mingyan {
+    width: 220px;
+    height: 100px;
+    padding: 30px 0 0 0;
+    position: absolute;
+    top: 20px;
+    left: 500px;
+}
+
+#zong div.mingyan p {
+    font-family: "Microsoft YaHei UI";
+    font-size: 16px;
+    line-height: 25px;
+    color: #ff8a00;
+}
+
+#zong div.lianjie1 {
+    width: 180px;
+    height: 140px;
+    position: absolute;
+    top: 30px;
+    left: 770px;
+}
+
+#zong div.lianjie2 {
+    width: 180px;
+    height: 140px;
+    position: absolute;
+    top: 30px;
+    left: 940px;
+}
+
+#zong div.lianjie3 {
+    width: 180px;
+    height: 140px;
+    position: absolute;
+    top: 20px;
+    left: 680px;
+}
+
+#zong div.lianjie4 {
+    width: 180px;
+    height: 140px;
+    position: absolute;
+    top: 20px;
+    left: 880px;
+}
+
+#zong div.lianjie5 {
+    width: 180px;
+    height: 140px;
+    position: absolute;
+    top: 20px;
+    left: 1100px;
+}
+
+#zong div.lianjie6 {
+    width: 180px;
+    height: 140px;
+    position: absolute;
+    top: 20px;
+    left: 680px;
+}
+
+#zong div.lianjie7 {
+    width: 180px;
+    height: 140px;
+    position: absolute;
+    top: 20px;
+    left: 910px;
+}
+
+#zong div.lianjie8 {
+    width: 180px;
+    height: 140px;
+    position: absolute;
+    top: 40px;
+    left: 740px;
+}
+
+#zong div.lianjie9 {
+    width: 180px;
+    height: 140px;
+    position: absolute;
+    top: 40px;
+    left: 920px;
+}
+
+#zong div.lianjie10 {
+    width: 180px;
+    height: 140px;
+    position: absolute;
+    top: 30px;
+    left: 720px;
+}
+
+#zong div.lianjie11 {
+    width: 180px;
+    height: 140px;
+    position: absolute;
+    top: 30px;
+    left: 920px;
+}
+
+#zong div.lianjie12 {
+    width: 180px;
+    height: 140px;
+    position: absolute;
+    top: 30px;
+    left: 720px;
+}
+
+#zong div.lianjie13 {
+    width: 180px;
+    height: 140px;
+    position: absolute;
+    top: 30px;
+    left: 920px;
+}
+
+#zong div.lianjie14 {
+    width: 180px;
+    height: 140px;
+    position: absolute;
+    top: 30px;
+    left: 720px;
+}
+
+#zong div.lianjie15 {
+    width: 180px;
+    height: 140px;
+    position: absolute;
+    top: 30px;
+    left: 900px;
+}
+#slideBox{
+    width: 1365px;
+    margin: 0 auto;
+}
+#slideBox .bd img{
+    width: 100%;
+}
+main{
+    width: 1100px;
+    margin: 0 auto;
+    cursor: pointer;
+    margin-top: 30px;
+    /* border: 1px solid red; */
+}
+main .one .left{
+   width: 400px;
+   float: left;
+   /* border: 1px solid red; */
+}
+main .one .left .hd ul,
+main .one .right .hd ul,
+main .two .zuo .hd ul,
+main .two .you .hd ul,
+main .three .top{
+   
+    border-bottom: 3px solid blue;
+    margin-bottom: 20px;
+}
+main .one .left .hd img,
+main .one .right .hd img,
+main .picMarquee-left .top  img,
+main .two .zuo .hd img,
+main .two .you .hd img,
+main .three .picMarquee-top .top img{
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+main .one .left .hd li,
+main .one .right .hd li{
+    width: 100px;
+    display: inline-block;
+    margin-left: 10px;
+    padding: 5px 10px;
+    text-align: center;
+    background: #D9ECFF;
+    font-size: 20px;
+}
+main .one .left .hd li:hover,
+main .one .right .hd li:hover{
+    background: blue;
+    color: white;
+}
+main .one  .left .bd{
+   width: 400px;
+   height: auto;
+   margin: 10px 0 0 5px;
+   /* border: 1px solid blue; */
+}
+main .one .left .bd li{
+    /* width: 410px; */
+    border-bottom: 1px dashed gray;
+}
+main .one .right .bd li,
+main .two .zuo .bd li{
+    width: 410px;
+    float: right;
+    border-bottom: 1px dashed gray;
+}
+main .one .left .bd a,
+main .one .right .bd a,
+main .two .zuo .bd a{
+    /* font-size: 16px; */
+    line-height: 32px;
+    text-decoration: none;
+}
+main .one .left .bd em,
+main .one .right .bd em,
+main .two .zuo .bd em{
+    float: right;
+    text-align: right;
+    line-height: 32px;
+    /* border: 1px solid green; */
+} 
+main .one .right{
+   width: 660px;
+   height: 300px;
+   float: right;
+   /* border: 1px solid blue; */
+}
+main .two .zuo ,
+main .three .zuo{
+    width: 700px;
+    height: 300px;
+    float: left;
+}
+main .two .you,
+main .three .picMarquee-top{
+    width: 370px;
+    /* height: 320px; */
+    float: right; 
+    /* border: 1px solid  red; */
+}
+main .one .right ul dl,
+main .two .zuo ul dl{
+    float: left;
+    width: 250px;
+    height: 250px;
+    /* line-height: 30px; */
+    /* border:1px solid red; */
+}
+main .right ul dl .title a,
+main .two .zuo ul dl .title a{
+    font-size: 15px;
+    color:#3CA1E7;
+    text-decoration:underline !important;
+    text-decoration-color: #3CA1E7;
+}
+main .right ul dl .text,
+main .zuo ul dl .text{
+    font-size: 12px;
+}
+main .picMarquee-left {
+    /* border: 1px solid red; */
+    margin-top: 25px;
+    width: 1100px;
+}
+
+main .picMarquee-left .top{
+    width: 1100px;
+    border-bottom: 3px solid blue; 
+}
+main .picMarquee-left .top span,
+main .three .top span,
+main .two .zuo .hd li,
+main .two .you .hd li{
+    font-size: 20px;
+    display:inline-block;
+    background: blue;
+    color: white;
+    margin-left: 10px;
+    padding: 5px 10px;
+}
+.picMarquee-left .bd{
+     width: 1100px;
+     padding:10px;  
+}
+
+.picMarquee-left .bd ul{
+    width: 1080px;
+    /* border: 1px solid black; */
+    overflow:hidden;
+    zoom:1;
+}
+.picMarquee-left .bd ul li{
+    margin:0 8px;
+    float:left;
+    overflow:hidden;
+    text-align:center; 
+}
+.picMarquee-left .bd ul li .pic{
+     text-align:center;
+ }
+.picMarquee-left .bd ul li .pic img{  
+    display:block;
+     padding:2px; 
+     border:1px solid #ccc;
+     width: 200px;
+     height: 136px;
+}
+.picMarquee-left .bd ul li .pic a:hover img{
+     border-color:blue;
+}
+.picMarquee-left .bd ul li .title{
+    line-height:24px; 
+}
+#daohang {
+    width: 1100px;
+    height: 48px;
+    float: left;
+    background: #0074eb;
+    margin: 20px 0 0 0px;
+}
+
+#daohang div.sousuo {
+    float: left;
+    width: 400px;
+}
+
+#daohang div.sousuo input.kuang {
+    width: 250px;
+    height: 28px;
+    margin: 8px 15px 5px 40px;
+    font-size: 16px;
+}
+
+#daohang div.sousuo input.submit {
+    width: 80px;
+    height: 30px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    font-size: 15px;
+    color: blue;
+    font-weight: bold;
+}
+
+#daohang div.xinxi {
+    float: right;
+    width: 600px;
+    height: 48px;
+}
+
+#daohang div.xinxi ul li {
+    list-style-type: none;
+    float: left;
+    margin: 0 5px;
+    background: red;
+    padding: 0 10px;
+}
+
+#daohang div.xinxi ul li.beijing1 {
+    background: url(../images/images.png) 12px 8px no-repeat;
+}
+
+#daohang div.xinxi ul li.beijing1:hover {
+    background: url(../images/images.png) 12px -54px no-repeat;
+}
+
+#daohang div.xinxi ul li.beijing2 {
+    background: url(../images/images.png) -165px 8px no-repeat;
+}
+
+#daohang div.xinxi ul li.beijing2:hover {
+    background: url(../images/images.png) -165px -54px no-repeat;
+}
+#daohang div.xinxi ul li.beijing3 {
+    background: url(../images/images.png) -348px 8px no-repeat;
+}
+
+#daohang div.xinxi ul li.beijing3:hover {
+    background: url(../images/images.png) -348px -54px no-repeat;
+}
+
+#daohang div.xinxi ul li.beijing4 {
+    background: url(../images/images.png) -518px 8px no-repeat;
+}
+
+#daohang div.xinxi ul li.beijing4:hover {
+    background: url(../images/images.png) -518px -54px no-repeat;
+}
+
+#daohang div.xinxi ul li a {
+    font-size: 17px;
+    color: #fff;
+    line-height: 48px;
+    display: block;
+    font-family: "Microsoft YaHei UI";
+    text-decoration: none;
+    padding: 0 0 0 40px;
+}
+
+#daohang div.xinxi ul li a:hover {
+    color: #fdee00;
+}
+main .two{
+    width: 1100px;
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    /* border: 1px solid red; */
+}
+main .two .you .bd{
+    margin: 5px 0;
+    width: 370px;
+    height: 230px;
+    /* border: 1px solid blue; */
+}
+main .two .you .bd ul{
+    margin: 0 0 0 5px;
+}
+main .two .you .bd ul li{
+    width: 365px;
+    height: 76px;
+    list-style-type: none;
+    margin: 0 10px;
+    border-color: #333;
+    border-style: dashed;
+    border-width: 0 0 1px 0;
+}
+main .two .you .bd ul li .lizong {
+    width: 365px;
+    height: 76px;
+    display: block;
+}
+main .two .you .bd ul li .lizong .calendar {
+    width: 70px;
+    height: 76px;
+    float: left;
+    background: url(../images/images.png) 0 -115px no-repeat;
+}
+
+main .two .you .bd ul li .lizong .calendar span {
+    font-family: "Microsoft YaHei UI";
+    margin: 18px 0 0 12px;
+    display: block;
+    color: #fff;
+}
+
+main .two .you .bd ul li .lizong .calendar p {
+    margin: 1px 0 0 13px;
+    color: blue;
+    font-size: 22px;
+    font-family: "Microsoft YaHei UI";
+}
+main .two .you .bd ul li .lizong .content {
+    width: 295px;
+    height: 70px;
+    float: right;
+    margin: 5px 0 0 0;
+}
+
+main .two .you .bd ul li .lizong .content span {
+    color: blue;
+    font-size: 15px;
+    line-height: 31px;
+    font-family: "Microsoft YaHei UI";
+}
+
+main .two .you .bd ul li .lizong .content span a {
+    color: blue;
+    text-decoration: none;
+}
+
+main .two .you .bd ul li .lizong .content span a:hover {
+    text-decoration: underline;
+}
+
+main .two .you .bd ul li .lizong .content p {
+    line-height: 17px;
+    font-size: 12px;
+    color: #888;
+}
+#fenmain {
+    width: 680px;
+    height: 270px;
+    margin: 35px 10px 10px 10px;
+    position: relative;
+}
+
+#fenmain a:hover {
+    color: #fff;
+}
+
+#fenmain div.kuai1 {
+    width: 165px;
+    height: 80px;
+    background: #b6d9ff;
+}
+
+#fenmain div.kuai1:hover {
+    background: #0074eb;
+}
+
+#fenmain div.kuai1 a:hover {
+    background: url(../images/images.png) -155px -277px no-repeat;
+}
+
+#fenmain div.kuai1 a {
+    display: block;
+    font-size: 16px;
+    line-height: 80px;
+    padding: 0 0 0 75px;
+    text-decoration: none;
+    font-family: "Microsoft YaHei UI";
+    background: url(../images/images.png) -155px -193px no-repeat;
+}
+
+#fenmain div.kuai2 a {
+    width: 80px;
+    height: 80px;
+    display: block;
+    text-align: center;
+    line-height: 80px;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: "Microsoft YaHei UI";
+    background: #b6d9ff;
+    position: absolute;
+    top: 0;
+    left: 170px;
+}
+
+#fenmain div.kuai2 a:hover {
+    background: #0074eb;
+}
+
+#fenmain div.kuai3 a {
+    width: 80px;
+    height: 80px;
+    display: block;
+    text-align: center;
+    line-height: 80px;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: "Microsoft YaHei UI";
+    background: #b6d9ff;
+    position: absolute;
+    top: 0;
+    left: 255px;
+}
+
+#fenmain div.kuai3 a:hover {
+    background: #0074eb;
+}
+
+#fenmain div.kuai4 {
+    position: absolute;
+    top: 0;
+    left: 340px;
+    width: 165px;
+    height: 80px;
+    background: #b6d9ff;
+}
+
+#fenmain div.kuai4:hover {
+    background: #0074eb;
+}
+
+#fenmain div.kuai4 a {
+    display: block;
+    font-size: 16px;
+    line-height: 80px;
+    padding: 0 0 0 75px;
+    text-decoration: none;
+    font-family: "Microsoft YaHei UI";
+    background: url(../images/images.png) -500px -193px no-repeat;
+}
+
+#fenmain div.kuai4 a:hover {
+    background: url(../images/images.png) -500px -277px no-repeat;
+}
+
+#fenmain div.kuai5 a {
+    width: 80px;
+    height: 80px;
+    display: block;
+    text-align: center;
+    line-height: 80px;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: "Microsoft YaHei UI";
+    background: #b6d9ff;
+    position: absolute;
+    top: 0;
+    left: 510px;
+}
+
+#fenmain div.kuai5 a:hover {
+    background: #0074eb;
+}
+
+#fenmain div.kuai6 a {
+    width: 80px;
+    height: 80px;
+    display: block;
+    text-align: center;
+    line-height: 80px;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: "Microsoft YaHei UI";
+    background: #b6d9ff;
+    position: absolute;
+    top: 0;
+    left: 595px;
+}
+
+#fenmain div.kuai6 a:hover {
+    background: #0074eb;
+}
+
+#fenmain div.kuai7 a {
+    width: 80px;
+    height: 80px;
+    display: block;
+    text-align: center;
+    line-height: 80px;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: "Microsoft YaHei UI";
+    background: #b6d9ff;
+    position: absolute;
+    top: 85px;
+    left: 0;
+}
+
+#fenmain div.kuai7 a:hover {
+    background: #0074eb;
+}
+
+#fenmain div.kuai8 a {
+    width: 80px;
+    height: 80px;
+    display: block;
+    text-align: center;
+    line-height: 80px;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: "Microsoft YaHei UI";
+    background: #b6d9ff;
+    position: absolute;
+    top: 85px;
+    left: 85px;
+}
+
+#fenmain div.kuai8 a:hover {
+    background: #0074eb;
+}
+
+#fenmain div.kuai9 {
+    position: absolute;
+    top: 85px;
+    left: 170px;
+    width: 165px;
+    height: 80px;
+    background: #b6d9ff;
+}
+
+#fenmain div.kuai9:hover {
+    background: #0074eb;
+}
+
+#fenmain div.kuai9 a {
+    display: block;
+    font-size: 16px;
+    line-height: 80px;
+    padding: 0 0 0 80px;
+    text-decoration: none;
+    font-family: "Microsoft YaHei UI";
+    background: url(../images/images.png) 35px -193px no-repeat;
+}
+
+#fenmain div.kuai9 a:hover {
+    background: url(../images/images.png) 35px -277px no-repeat;
+}
+
+#fenmain div.kuai10 a {
+    width: 80px;
+    height: 80px;
+    display: block;
+    text-align: center;
+    line-height: 80px;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: "Microsoft YaHei UI";
+    background: #b6d9ff;
+    position: absolute;
+    top: 85px;
+    left: 340px;
+}
+
+#fenmain div.kuai10 a:hover {
+    background: #0074eb;
+}
+
+#fenmain div.kuai11 a {
+    width: 80px;
+    height: 80px;
+    display: block;
+    text-align: center;
+    line-height: 80px;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: "Microsoft YaHei UI";
+    background: #b6d9ff;
+    position: absolute;
+    top: 85px;
+    left: 425px;
+}
+
+#fenmain div.kuai11 a:hover {
+    background: #0074eb;
+}
+
+#fenmain div.kuai12 {
+    position: absolute;
+    top: 85px;
+    left: 510px;
+    width: 165px;
+    height: 80px;
+    background: #b6d9ff;
+}
+
+#fenmain div.kuai12:hover {
+    background: #0074eb;
+}
+
+#fenmain div.kuai12 a {
+    display: block;
+    font-size: 16px;
+    line-height: 80px;
+    padding: 0 0 0 75px;
+    text-decoration: none;
+    font-family: "Microsoft YaHei UI";
+    background: url(../images/images.png) -330px -193px no-repeat;
+}
+
+#fenmain div.kuai12 a:hover {
+    background: url(../images/images.png) -330px -277px no-repeat;
+}
+
+#fenmain div.kuai13 {
+    width: 650px;
+    height: 180px;
+    position: absolute;
+    top: 190px;
+    left: 0;
+}
+
+#fenmain div.kuai13 img {
+    border: none;
+}
+
+.picMarquee-top .bd{ 
+
+    padding:12px;  
+}
+.picMarquee-top .bd ul{ 
+    width: 350px;
+    overflow:hidden; 
+    zoom:1;
+}
+.picMarquee-top .bd ul li{ 
+    text-align:center; 
+    zoom:1; 
+}
+.picMarquee-top .bd ul li .pic{ 
+    text-align:center; 
+}
+.picMarquee-top .bd ul li .pic img{ 
+    width:340px;
+     height:90px;
+     display:block;
+      padding:2px; 
+      margin-top: 10px;
+      border:1px solid #ccc; 
+}
+.picMarquee-top .bd ul li .pic a:hover img{ 
+    border-color:red; 
+ }
+ #footer {
+    height: 150px;
+    background: #0074eb;
+    margin-top: 30px;
+}
+
+#footer #mainfooter {
+    position: relative;
+    width: 1140px;
+    margin: 0 auto;
+    padding: 30px 0;
+    font-family: "Microsoft YaHei UI";
+    background: url(../images/jiange.png) 412px 30px no-repeat;
+}
+
+#footer #mainfooter #neirong1 {
+    width: 300px;
+    height: 70px;
+    margin: 0 0 0 120px;
+    padding: 15px 0 0 0;
+}
+
+#footer #mainfooter #neirong1 img {
+    border: none;
+}
+
+#footer #mainfooter #neirong2 {
+    width: 200px;
+    height: 80px;
+    position: absolute;
+    top: 30px;
+    left: 440px;
+    padding: 10px 0 0 0;
+}
+
+#footer #mainfooter #neirong2 ul li {
+    list-style-type: none;
+    line-height: 20px;
+    font-size: 13px;
+    color: #fff;
+}
+
+#footer #mainfooter #neirong3 {
+    width: 340px;
+    height: 80px;
+    position: absolute;
+    top: 30px;
+    left: 680px;
+    padding: 10px 0 0 0;
+}
+
+#footer #mainfooter #neirong3 ul li {
+    list-style-type: none;
+    line-height: 20px;
+    font-size: 13px;
+    color: #fff;
+}
